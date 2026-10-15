@@ -85,4 +85,4 @@ emp_info = df[df["Họ tên"] == selected_employee].iloc[0]
 # Hiển thị thông tin
 c1, c2, c3, c4, c5 = st.columns(5)
 c1.metric("Lương cơ bản", f"{emp_info['Lương cơ bản (Triệu VNĐ)']} Tr")
-c2.metric("Hệ số", emp
+c2.metric("Hệ số", emp)
